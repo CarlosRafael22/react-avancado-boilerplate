@@ -9,6 +9,7 @@ function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title> Next.js React app - Boilerplate </title>
+        <link rel="manifest" href="/manifest.json" />
         <meta
           name="description"
           content="A simple boilerplate to have a NextJS project with React, TypeScript and Styled Components"
