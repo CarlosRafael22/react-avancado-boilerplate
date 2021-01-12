@@ -1,8 +1,8 @@
 import * as Style from './styles'
 
 const Main = ({
-  title = 'React Avançado',
-  description = 'TypeScript, ReactJS, NextJS e Styled Components',
+  title = 'React Avançado - Boilerplate',
+  description = 'TypeScript, ReactJS, NextJS, Storybook and Styled Components in the same project',
 }) => (
   <Style.Wrapper>
     <Style.Logo

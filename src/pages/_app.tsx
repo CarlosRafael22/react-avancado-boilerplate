@@ -1,4 +1,3 @@
-import '../styles/globals.css'
 import { AppProps } from 'next/app'
 import Head from 'next/head'
 
@@ -12,7 +11,7 @@ function App({ Component, pageProps }: AppProps) {
         <link rel="manifest" href="/manifest.json" />
         <meta
           name="description"
-          content="A simple boilerplate to have a NextJS project with React, TypeScript and Styled Components"
+          content="A simple boilerplate to have a NextJS project with React, TypeScript, Storybook and Styled Components"
         />
       </Head>
       <GlobalStyles />
